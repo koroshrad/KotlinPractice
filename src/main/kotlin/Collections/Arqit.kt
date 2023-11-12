@@ -2,7 +2,7 @@ package Collections
 
 class Arqit {
 
-    fun removeMaxMin(arr: IntArray): IntArray {
+    fun removeMaxMin(arr: Array<Int>): IntArray {
         val max = arr.max();
         val min = arr.min();
 
